@@ -8,9 +8,10 @@ let color = document.querySelector('#color');
 function clicar(){
     let codigoHex = [];
     for(let i = 0; i < 6; i++){
-        let numero = Math.random() * 17;
+        let numero = Math.random() * 15;
         numero = Math.round( numero );
         codigoHex.push(digitoHexadecimal[numero]);
+        console.log(numero);
     }
 
     let cor = codigoHex[0] + codigoHex[1] + codigoHex[2] + codigoHex[3] + codigoHex[4] + codigoHex[5];
