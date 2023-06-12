@@ -1,4 +1,4 @@
-<h1 align="center">Contador</h1>
+<h1 align="center">Color Flipper</h1>
 
 <h5 align= "center">( https://color-flipper-blond-ten.vercel.app/ )</h5>
 
